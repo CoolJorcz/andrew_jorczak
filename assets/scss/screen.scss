@@ -2,17 +2,16 @@
 // Imports
 
 @import "base";
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/layout";
+@import "compass/typography/";
+@import "compass/utilities/general/clearfix";
 
-@font-face {
-  font-family: "entypo";
-  src: url('{{ site.base-url }}/fonts/entypo.eot');
-  src: url('{{ site.base-url }}/fonts/entypo.eot?#iefix') format('eot'), url('{{ site.base-url }}/fonts/entypo.woff') format('woff'), url('/css/fonts/entypo.ttf') format('truetype'), url('/css/fonts/entypo.svg') format('svg'); }
-
-@font-face {
-  font-family: "entypo-social";
-  src: url('{{ site.base-url }}/assets/css/fonts/entypo-social.eot');
-  src: url('{{ site.base-url }}/assets/css/fonts/entypo-social.eot?#iefix') format('eot'), url('/assets/css/fonts/entypo-social.ttf') format('truetype'), url('/assets/css/fonts/entypo-social.woff') format('woff'), url('/css/fonts/entypo-social.svg') format('svg'); }
-
+/*-------------------------------------------------------------------------------/
+/* INCLUDES ********************************************************************************/
+@include font-face("entypo", font-files("entypo.woff", "entypo.ttf", "entypo.svg"), "entypo.eot");
+@include font-face("entypo-social", font-files("entypo-social.ttf", "entypo-social.woff", "entypo-social.svg"), "entypo-social.eot");
 
 /* -------------------------------------------------------------------------*/
 /* Layout */
