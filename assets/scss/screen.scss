@@ -5,13 +5,13 @@
 
 @font-face {
   font-family: "entypo";
-  src: url('/fonts/entypo.eot');
-  src: url('/fonts/entypo.eot?#iefix') format('eot'), url('/fonts/entypo.woff') format('woff'), url('/css/fonts/entypo.ttf') format('truetype'), url('/css/fonts/entypo.svg') format('svg'); }
+  src: url('{{ site.base-url }}/fonts/entypo.eot');
+  src: url('{{ site.base-url }}/fonts/entypo.eot?#iefix') format('eot'), url('{{ site.base-url }}/fonts/entypo.woff') format('woff'), url('/css/fonts/entypo.ttf') format('truetype'), url('/css/fonts/entypo.svg') format('svg'); }
 
 @font-face {
   font-family: "entypo-social";
-  src: url('/assets/css/fonts/entypo-social.eot');
-  src: url('/assets/css/fonts/entypo-social.eot?#iefix') format('eot'), url('/assets/css/fonts/entypo-social.ttf') format('truetype'), url('/assets/css/fonts/entypo-social.woff') format('woff'), url('/css/fonts/entypo-social.svg') format('svg'); }
+  src: url('{{ site.base-url }}/assets/css/fonts/entypo-social.eot');
+  src: url('{{ site.base-url }}/assets/css/fonts/entypo-social.eot?#iefix') format('eot'), url('/assets/css/fonts/entypo-social.ttf') format('truetype'), url('/assets/css/fonts/entypo-social.woff') format('woff'), url('/css/fonts/entypo-social.svg') format('svg'); }
 
 
 /* -------------------------------------------------------------------------*/
