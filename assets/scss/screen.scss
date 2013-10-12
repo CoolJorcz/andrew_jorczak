@@ -1,0 +1,205 @@
+// ---------------------------------------------------------------------------
+// Imports
+
+@import "base";
+
+@font-face {
+  font-family: "entypo";
+  src: url('/fonts/entypo.eot');
+  src: url('/fonts/entypo.eot?#iefix') format('eot'), url('/fonts/entypo.woff') format('woff'), url('/css/fonts/entypo.ttf') format('truetype'), url('/css/fonts/entypo.svg') format('svg'); }
+
+@font-face {
+  font-family: "entypo-social";
+  src: url('/assets/css/fonts/entypo-social.eot');
+  src: url('/assets/css/fonts/entypo-social.eot?#iefix') format('eot'), url('/assets/css/fonts/entypo-social.ttf') format('truetype'), url('/assets/css/fonts/entypo-social.woff') format('woff'), url('/css/fonts/entypo-social.svg') format('svg'); }
+
+
+/* -------------------------------------------------------------------------*/
+/* Layout */
+
+.container {
+  @include container;
+  @include susy-grid-background;
+}
+
+body {
+	font-family: "Lucida Grande";
+	background-color: #dbd7d7;
+	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.navigation {
+	@include span-columns(4, 12);
+	font-family: "Lucida Grande";
+	display: block;
+	padding-top: 5em;
+	width: 30%;
+	min-width: 400px;
+	li {
+		text-align: left;
+		padding-left: 2em;
+		list-style: none;
+	}
+}
+
+.main-content {
+	@include span-columns(8 omega, 12);	
+	margin: 0 10px 0
+}
+
+
+.navlink {
+	/*color: rgb(6,146,91);*/
+	color: #6b0707;
+	font-size: 1em;
+	transition: 1s;
+	text-decoration: none;
+}
+.navlink:hover{
+	transition: 1s;
+	color: rgb(152,4,4);
+	text-decoration: none;
+}
+.link {
+	text-decoration: none;
+	color: black;
+}
+
+.link:hover {
+	color: black;
+	text-decoration: none;
+}
+
+.social {
+	display: inline;
+}
+.social li{
+	display: inline;
+}
+.social .icon {
+	font-size: 3em;
+	padding: 0.2em; 
+	color: black;
+	text-decoration: none;
+	transition: 1s;
+}
+
+.social .icon:hover {
+	color: #6b0707;
+	transition: 1s;
+	text-decoration: none;
+}
+
+.social .icon.twitter:before, .social .icon.github:before, .social .icon.linkedin:before, .social .icon.instagram:before {
+  font-family: 'entypo-social';
+  content: attr(data-icon); }
+
+
+.span4 {
+	
+	font-family: "Lucida Grande";
+	display: block;
+	padding-top: 5em;
+	width: 30%;
+	min-width: 400px;
+}
+
+#aboutme {
+  font-family: "Lucida Grande";
+}
+
+
+.intronote{
+	display:inline;
+}
+
+.about-container {
+	font-size: 1.2em
+}
+
+.container-right {
+	display:inline-block;
+	padding-left: 4em;
+	font-size: 1.3em;
+}
+.container-right ol {
+	display: inline;
+}
+
+.aboutphoto {
+	width: 23em;
+	height: 15em;
+	display: inline;
+}
+
+.header1 {
+	font-weight: bold;
+	font-size: 3em;
+	padding-bottom: 25px;
+	
+}
+
+.header1 a {
+	text-decoration: none;
+	color: black;
+	transition: 0.45s;
+}
+
+.header1 a:hover {
+	text-decoration: none;
+	transition: 0.45s;
+	color: #6b0707;
+}
+
+.header2 {
+	font-weight: bold;
+	font-size: 2em;
+}
+
+h1 {
+	text-align: center;
+}
+
+h2 {
+	text-align: center;
+}
+
+.stretchtest{
+  width: 55em;
+  height: 40em;
+  /*padding: 4px;*/
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  display: inline-block;
+}
+
+.voiceover li {
+	list-style: none;
+}
+
+.voiceover a {
+	color: #6b0707;
+}
+.voiceover a:hover {
+	text-decoration: none;
+	color: rgb(18,71,47);
+}
+
+.development li {
+	list-style: none;
+}
+.development a {
+	color: black;
+}
+.development a:hover {
+	text-decoration: none;
+	color: #6b0707;
+	transition: 1s;
+}
+
+.projects {
+	text-align: left;
+}
