@@ -28,71 +28,6 @@
   }
 }
 
-/* line 17, ../../../../.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, ../../../../.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, ../../../../.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, ../../../../.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, ../../../../.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, ../../../../.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, ../../../../.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, ../../../../.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, ../../../../.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block;
-}
-
 /*-------------------------------------------------------------------------------/
 /* INCLUDES ********************************************************************************/
 @font-face {
@@ -109,7 +44,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* -------------------------------------------------------------------------*/
 /* Layout */
-/* line 19, ../scss/screen.scss */
+/* line 18, ../scss/screen.scss */
 .container {
   *zoom: 1;
   padding-left: 1em;
@@ -138,14 +73,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   clear: both;
 }
 
-/* line 24, ../scss/screen.scss */
+/* line 23, ../scss/screen.scss */
 body {
   font-family: "Lucida Grande";
   background-color: #dbd7d7;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* line 30, ../scss/screen.scss */
+/* line 29, ../scss/screen.scss */
 .navigation {
   width: 32.20339%;
   float: left;
@@ -157,62 +92,60 @@ body {
   width: 30%;
   min-width: 400px;
 }
-/* line 37, ../scss/screen.scss */
+/* line 36, ../scss/screen.scss */
 .navigation li {
   text-align: left;
   padding-left: 2em;
   list-style: none;
 }
 
-/* line 44, ../scss/screen.scss */
+/* line 43, ../scss/screen.scss */
 .main-content {
   width: 66.10169%;
   float: right;
   margin-right: 0;
   *margin-left: -1em;
   display: inline;
-  margin: 0 10px 0;
 }
 
-/* line 50, ../scss/screen.scss */
+/* line 48, ../scss/screen.scss */
 .navlink {
   /*color: rgb(6,146,91);*/
   color: #6b0707;
-  font-size: 1em;
   transition: 1s;
   text-decoration: none;
 }
 
-/* line 57, ../scss/screen.scss */
+/* line 54, ../scss/screen.scss */
 .navlink:hover {
   transition: 1s;
   color: #980404;
   text-decoration: none;
 }
 
-/* line 62, ../scss/screen.scss */
+/* line 59, ../scss/screen.scss */
 .link {
   text-decoration: none;
   color: black;
 }
 
-/* line 67, ../scss/screen.scss */
+/* line 64, ../scss/screen.scss */
 .link:hover {
   color: black;
   text-decoration: none;
 }
 
-/* line 72, ../scss/screen.scss */
+/* line 69, ../scss/screen.scss */
 .social {
   display: inline;
 }
 
-/* line 75, ../scss/screen.scss */
+/* line 72, ../scss/screen.scss */
 .social li {
   display: inline;
 }
 
-/* line 78, ../scss/screen.scss */
+/* line 75, ../scss/screen.scss */
 .social .icon {
   font-size: 3em;
   padding: 0.2em;
@@ -221,100 +154,92 @@ body {
   transition: 1s;
 }
 
-/* line 86, ../scss/screen.scss */
+/* line 83, ../scss/screen.scss */
 .social .icon:hover {
   color: #6b0707;
   transition: 1s;
   text-decoration: none;
 }
 
-/* line 92, ../scss/screen.scss */
+/* line 89, ../scss/screen.scss */
 .social .icon.twitter:before, .social .icon.github:before, .social .icon.linkedin:before, .social .icon.instagram:before {
   font-family: 'entypo-social';
   content: attr(data-icon);
 }
 
-/* line 97, ../scss/screen.scss */
-.span4 {
-  font-family: "Lucida Grande";
-  display: block;
-  padding-top: 5em;
-  width: 30%;
-  min-width: 400px;
-}
-
-/* line 106, ../scss/screen.scss */
+/* line 94, ../scss/screen.scss */
 #aboutme {
   font-family: "Lucida Grande";
+  font-size: 2em;
+  margin: 0.67em 0;
 }
 
-/* line 111, ../scss/screen.scss */
+/* line 100, ../scss/screen.scss */
 .intronote {
   display: inline;
 }
 
-/* line 115, ../scss/screen.scss */
+/* line 104, ../scss/screen.scss */
 .about-container {
   font-size: 1.2em;
 }
 
-/* line 119, ../scss/screen.scss */
+/* line 108, ../scss/screen.scss */
 .container-right {
   display: inline-block;
   padding-left: 4em;
   font-size: 1.3em;
 }
-
-/* line 124, ../scss/screen.scss */
+/* line 112, ../scss/screen.scss */
 .container-right ol {
   display: inline;
 }
 
-/* line 128, ../scss/screen.scss */
+/* line 117, ../scss/screen.scss */
 .aboutphoto {
   width: 23em;
   height: 15em;
   display: inline;
 }
 
-/* line 134, ../scss/screen.scss */
+/* line 123, ../scss/screen.scss */
 .header1 {
   font-weight: bold;
   font-size: 3em;
   padding-bottom: 25px;
 }
 
-/* line 141, ../scss/screen.scss */
+/* line 130, ../scss/screen.scss */
 .header1 a {
   text-decoration: none;
   color: black;
   transition: 0.45s;
 }
 
-/* line 147, ../scss/screen.scss */
+/* line 136, ../scss/screen.scss */
 .header1 a:hover {
   text-decoration: none;
   transition: 0.45s;
   color: #6b0707;
 }
 
-/* line 153, ../scss/screen.scss */
+/* line 142, ../scss/screen.scss */
 .header2 {
   font-weight: bold;
   font-size: 2em;
 }
 
-/* line 158, ../scss/screen.scss */
+/* line 147, ../scss/screen.scss */
 h1 {
   text-align: center;
 }
 
-/* line 162, ../scss/screen.scss */
+/* line 151, ../scss/screen.scss */
 h2 {
   text-align: center;
 }
 
-/* line 166, ../scss/screen.scss */
+/* line 155, ../scss/screen.scss */
 .stretchtest {
   width: 55em;
   height: 40em;
@@ -327,40 +252,40 @@ h2 {
   display: inline-block;
 }
 
-/* line 178, ../scss/screen.scss */
+/* line 167, ../scss/screen.scss */
 .voiceover li {
   list-style: none;
 }
 
-/* line 182, ../scss/screen.scss */
+/* line 171, ../scss/screen.scss */
 .voiceover a {
   color: #6b0707;
 }
 
-/* line 185, ../scss/screen.scss */
+/* line 174, ../scss/screen.scss */
 .voiceover a:hover {
   text-decoration: none;
   color: #12472f;
 }
 
-/* line 190, ../scss/screen.scss */
+/* line 179, ../scss/screen.scss */
 .development li {
   list-style: none;
 }
 
-/* line 193, ../scss/screen.scss */
+/* line 182, ../scss/screen.scss */
 .development a {
   color: black;
 }
 
-/* line 196, ../scss/screen.scss */
+/* line 185, ../scss/screen.scss */
 .development a:hover {
   text-decoration: none;
   color: #6b0707;
   transition: 1s;
 }
 
-/* line 202, ../scss/screen.scss */
+/* line 191, ../scss/screen.scss */
 .projects {
   text-align: left;
 }

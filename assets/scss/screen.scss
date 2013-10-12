@@ -2,7 +2,6 @@
 // Imports
 
 @import "base";
-@import "compass/reset";
 @import "compass/css3";
 @import "compass/layout";
 @import "compass/typography/";
@@ -43,14 +42,12 @@ body {
 
 .main-content {
 	@include span-columns(8 omega, 12);	
-	margin: 0 10px 0
 }
 
 
 .navlink {
 	/*color: rgb(6,146,91);*/
 	color: #6b0707;
-	font-size: 1em;
 	transition: 1s;
 	text-decoration: none;
 }
@@ -94,19 +91,11 @@ body {
   content: attr(data-icon); }
 
 
-.span4 {
-	
-	font-family: "Lucida Grande";
-	display: block;
-	padding-top: 5em;
-	width: 30%;
-	min-width: 400px;
-}
-
 #aboutme {
   font-family: "Lucida Grande";
+  font-size: 2em;
+	margin: 0.67em 0;
 }
-
 
 .intronote{
 	display:inline;
@@ -120,9 +109,9 @@ body {
 	display:inline-block;
 	padding-left: 4em;
 	font-size: 1.3em;
-}
-.container-right ol {
-	display: inline;
+ 	ol {
+		display: inline;
+	}
 }
 
 .aboutphoto {
