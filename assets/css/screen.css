@@ -32,14 +32,14 @@
 /* INCLUDES ********************************************************************************/
 @font-face {
   font-family: "entypo";
-  src: url('fonts/entypo.eot');
-  src: url('fonts/entypo.eot?#iefix') format('eot'), url('fonts/entypo.woff') format('woff'), url('fonts/entypo.ttf') format('truetype'), url('fonts/entypo.svg') format('svg');
+  src: url('/assets/css/fonts/entypo.eot');
+  src: url('/assets/css/fonts/entypo.eot?#iefix') format('eot'), url('/assets/css/fonts/entypo.woff') format('woff'), url('/assets/css/fonts/entypo.ttf') format('truetype'), url('/assets/css/fonts/entypo.svg') format('svg');
 }
 
 @font-face {
   font-family: "entypo-social";
-  src: url('fonts/entypo-social.eot');
-  src: url('fonts/entypo-social.eot?#iefix') format('eot'), url('fonts/entypo-social.ttf') format('truetype'), url('fonts/entypo-social.woff') format('woff'), url('fonts/entypo-social.svg') format('svg');
+  src: url('/assets/css/fonts/entypo-social.eot');
+  src: url('/assets/css/fonts/entypo-social.eot?#iefix') format('eot'), url('/assets/css/fonts/entypo-social.ttf') format('truetype'), url('/assets/css/fonts/entypo-social.woff') format('woff'), url('/assets/css/fonts/entypo-social.svg') format('svg');
 }
 
 /* -------------------------------------------------------------------------*/
@@ -139,13 +139,16 @@ body {
 .social {
   display: inline;
 }
-
-/* line 72, ../scss/screen.scss */
+/* line 71, ../scss/screen.scss */
+.social ul {
+  padding-left: none;
+}
+/* line 74, ../scss/screen.scss */
 .social li {
   display: inline;
 }
 
-/* line 75, ../scss/screen.scss */
+/* line 78, ../scss/screen.scss */
 .social .icon {
   font-size: 3em;
   padding: 0.2em;
@@ -154,92 +157,92 @@ body {
   transition: 1s;
 }
 
-/* line 83, ../scss/screen.scss */
+/* line 86, ../scss/screen.scss */
 .social .icon:hover {
   color: #6b0707;
   transition: 1s;
   text-decoration: none;
 }
 
-/* line 89, ../scss/screen.scss */
+/* line 92, ../scss/screen.scss */
 .social .icon.twitter:before, .social .icon.github:before, .social .icon.linkedin:before, .social .icon.instagram:before {
   font-family: 'entypo-social';
   content: attr(data-icon);
 }
 
-/* line 94, ../scss/screen.scss */
+/* line 97, ../scss/screen.scss */
 #aboutme {
   font-family: "Lucida Grande";
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 100, ../scss/screen.scss */
+/* line 103, ../scss/screen.scss */
 .intronote {
   display: inline;
 }
 
-/* line 104, ../scss/screen.scss */
+/* line 107, ../scss/screen.scss */
 .about-container {
   font-size: 1.2em;
 }
 
-/* line 108, ../scss/screen.scss */
+/* line 111, ../scss/screen.scss */
 .container-right {
   display: inline-block;
   padding-left: 4em;
   font-size: 1.3em;
 }
-/* line 112, ../scss/screen.scss */
+/* line 115, ../scss/screen.scss */
 .container-right ol {
   display: inline;
 }
 
-/* line 117, ../scss/screen.scss */
+/* line 120, ../scss/screen.scss */
 .aboutphoto {
   width: 23em;
   height: 15em;
   display: inline;
 }
 
-/* line 123, ../scss/screen.scss */
+/* line 126, ../scss/screen.scss */
 .header1 {
   font-weight: bold;
   font-size: 3em;
   padding-bottom: 25px;
 }
 
-/* line 130, ../scss/screen.scss */
+/* line 133, ../scss/screen.scss */
 .header1 a {
   text-decoration: none;
   color: black;
   transition: 0.45s;
 }
 
-/* line 136, ../scss/screen.scss */
+/* line 139, ../scss/screen.scss */
 .header1 a:hover {
   text-decoration: none;
   transition: 0.45s;
   color: #6b0707;
 }
 
-/* line 142, ../scss/screen.scss */
+/* line 145, ../scss/screen.scss */
 .header2 {
   font-weight: bold;
   font-size: 2em;
 }
 
-/* line 147, ../scss/screen.scss */
+/* line 150, ../scss/screen.scss */
 h1 {
   text-align: center;
 }
 
-/* line 151, ../scss/screen.scss */
+/* line 154, ../scss/screen.scss */
 h2 {
   text-align: center;
 }
 
-/* line 155, ../scss/screen.scss */
+/* line 158, ../scss/screen.scss */
 .stretchtest {
   width: 55em;
   height: 40em;
@@ -252,40 +255,40 @@ h2 {
   display: inline-block;
 }
 
-/* line 167, ../scss/screen.scss */
+/* line 170, ../scss/screen.scss */
 .voiceover li {
   list-style: none;
 }
 
-/* line 171, ../scss/screen.scss */
+/* line 174, ../scss/screen.scss */
 .voiceover a {
   color: #6b0707;
 }
 
-/* line 174, ../scss/screen.scss */
+/* line 177, ../scss/screen.scss */
 .voiceover a:hover {
   text-decoration: none;
   color: #12472f;
 }
 
-/* line 179, ../scss/screen.scss */
+/* line 182, ../scss/screen.scss */
 .development li {
   list-style: none;
 }
 
-/* line 182, ../scss/screen.scss */
+/* line 185, ../scss/screen.scss */
 .development a {
   color: black;
 }
 
-/* line 185, ../scss/screen.scss */
+/* line 188, ../scss/screen.scss */
 .development a:hover {
   text-decoration: none;
   color: #6b0707;
   transition: 1s;
 }
 
-/* line 191, ../scss/screen.scss */
+/* line 194, ../scss/screen.scss */
 .projects {
   text-align: left;
 }

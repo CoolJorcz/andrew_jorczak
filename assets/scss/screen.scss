@@ -68,9 +68,12 @@ body {
 
 .social {
 	display: inline;
-}
-.social li{
-	display: inline;
+	ul {
+		padding-left: none;
+	}
+	li{
+		display: inline;
+	}
 }
 .social .icon {
 	font-size: 3em;
