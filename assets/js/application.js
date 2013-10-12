@@ -43,7 +43,7 @@ function devCarousel() {
 
 $(document).ready(function() {
 
-		$(".container").hide();
+		$(".about-container").hide();
 	  homeCarousel();
 	  contentView();
 	  devCarousel();
