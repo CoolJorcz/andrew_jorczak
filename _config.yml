@@ -1,6 +1,6 @@
 safe:        false
 auto:        false
-base-url:    /andrew_jorczak
+baseurl:    /andrew_jorczak
 permalink:   none
 
 source:      .

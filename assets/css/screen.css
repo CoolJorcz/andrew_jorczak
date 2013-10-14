@@ -32,14 +32,14 @@
 /* INCLUDES ********************************************************************************/
 @font-face {
   font-family: "entypo";
-  src: url('fonts/entypo.eot');
-  src: url('fonts/entypo.eot?#iefix') format('eot'), url('fonts/entypo.woff') format('woff'), url('fonts/entypo.ttf') format('truetype'), url('fonts/entypo.svg') format('svg');
+  src: url('/assets/css/fonts/entypo.eot');
+  src: url('/assets/css/fonts/entypo.eot?#iefix') format('eot'), url('/assets/css/fonts/entypo.woff') format('woff'), url('/assets/css/fonts/entypo.ttf') format('truetype'), url('/assets/css/fonts/entypo.svg') format('svg');
 }
 
 @font-face {
   font-family: "entypo-social";
-  src: url('fonts/entypo-social.eot');
-  src: url('fonts/entypo-social.eot?#iefix') format('eot'), url('fonts/entypo-social.ttf') format('truetype'), url('fonts/entypo-social.woff') format('woff'), url('fonts/entypo-social.svg') format('svg');
+  src: url('/assets/css/fonts/entypo-social.eot');
+  src: url('/assets/css/fonts/entypo-social.eot?#iefix') format('eot'), url('/assets/css/fonts/entypo-social.ttf') format('truetype'), url('/assets/css/fonts/entypo-social.woff') format('woff'), url('/assets/css/fonts/entypo-social.svg') format('svg');
 }
 
 /* -------------------------------------------------------------------------*/
@@ -75,7 +75,7 @@
 
 /* line 23, ../scss/screen.scss */
 body {
-  font-family: "Lucida Grande";
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   background-color: #dbd7d7;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -106,11 +106,11 @@ body {
   margin-right: 0;
   *margin-left: -1em;
   display: inline;
+  padding: 0 10px 0px;
 }
 
-/* line 48, ../scss/screen.scss */
+/* line 49, ../scss/screen.scss */
 .navlink {
-  /*color: rgb(6,146,91);*/
   color: #6b0707;
   transition: 1s;
   text-decoration: none;
@@ -138,10 +138,7 @@ body {
 /* line 69, ../scss/screen.scss */
 .social {
   display: inline;
-}
-/* line 71, ../scss/screen.scss */
-.social ul {
-  padding-left: none;
+  padding-left: 0;
 }
 /* line 74, ../scss/screen.scss */
 .social li {
@@ -248,47 +245,43 @@ h2 {
   height: 40em;
   /*padding: 4px;*/
   border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   display: inline-block;
 }
 
-/* line 170, ../scss/screen.scss */
+/* line 166, ../scss/screen.scss */
 .voiceover li {
   list-style: none;
 }
 
-/* line 174, ../scss/screen.scss */
+/* line 170, ../scss/screen.scss */
 .voiceover a {
   color: #6b0707;
 }
 
-/* line 177, ../scss/screen.scss */
+/* line 173, ../scss/screen.scss */
 .voiceover a:hover {
   text-decoration: none;
   color: #12472f;
 }
 
-/* line 182, ../scss/screen.scss */
+/* line 178, ../scss/screen.scss */
 .development li {
   list-style: none;
 }
 
-/* line 185, ../scss/screen.scss */
+/* line 181, ../scss/screen.scss */
 .development a {
   color: black;
 }
 
-/* line 188, ../scss/screen.scss */
+/* line 184, ../scss/screen.scss */
 .development a:hover {
   text-decoration: none;
   color: #6b0707;
   transition: 1s;
 }
 
-/* line 194, ../scss/screen.scss */
+/* line 190, ../scss/screen.scss */
 .projects {
   text-align: left;
 }

@@ -21,7 +21,7 @@
 }
 
 body {
-	font-family: "Lucida Grande";
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	background-color: #dbd7d7;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -42,11 +42,11 @@ body {
 
 .main-content {
 	@include span-columns(8 omega, 12);	
+	padding: 0 10px 0px;
 }
 
 
 .navlink {
-	/*color: rgb(6,146,91);*/
 	color: #6b0707;
 	transition: 1s;
 	text-decoration: none;
@@ -68,8 +68,8 @@ body {
 
 .social {
 	display: inline;
+	padding-left: 0;
 	ul {
-		padding-left: none;
 	}
 	li{
 		display: inline;
@@ -160,10 +160,6 @@ h2 {
   height: 40em;
   /*padding: 4px;*/
   border: 1px solid #ccc;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   display: inline-block;
 }
 
