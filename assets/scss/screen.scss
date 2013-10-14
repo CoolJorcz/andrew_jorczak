@@ -16,7 +16,7 @@
 
 /* BREAKPOINTS *******************************/
 
-$less-than-tablet: 0px 9 767px;
+$less-than-tablet: 0px 9 1276px;
 
 /* Layout */
 
@@ -208,6 +208,7 @@ h2 {
   }
   .main-content {
   	@include span-columns(9);
+  	padding: 0 1em;
   }
 
 }

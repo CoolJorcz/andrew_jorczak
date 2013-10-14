@@ -1,33 +1,3 @@
-/* line 19, ../scss/_base.scss */
-.page {
-  *zoom: 1;
-  padding-left: 1em;
-  padding-right: 1em;
-  margin-left: auto;
-  margin-right: auto;
-}
-/* line 38, ../../../../.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.page:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media (min-width: 30em) {
-  /* line 19, ../scss/_base.scss */
-  .page {
-    padding-left: 1em;
-    padding-right: 1em;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  /* line 38, ../../../../.rvm/gems/ruby-1.9.3-p385@rails3tutorial2ndEd/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-  .page:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-
 /*-------------------------------------------------------------------------------/
 /* INCLUDES ********************************************************************************/
 @font-face {
@@ -41,6 +11,7 @@
   src: url('fonts/entypo-social.eot');
   src: url('fonts/entypo-social.eot?#iefix') format('eot'), url('fonts/entypo-social.ttf') format('truetype'), url('fonts/entypo-social.woff') format('woff'), url('fonts/entypo-social.svg') format('svg');
 }
+
 
 /* -------------------------------------------------------------------------*/
 /* BREAKPOINTS *******************************/
@@ -289,7 +260,7 @@ h2 {
 }
 
 /* MEDIA QUERIES ***********************************/
-@media (min-width: 0px) and (max-width: 767px) {
+@media (min-width: 0px) and (max-width: 1276px) {
   /* line 203, ../scss/screen.scss */
   body {
     font-size: 75%;
@@ -305,5 +276,6 @@ h2 {
     width: 100%;
     float: left;
     margin-right: 2.27273%;
+    padding: 0 1em;
   }
 }
