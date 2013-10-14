@@ -13,6 +13,11 @@
 @include font-face("entypo-social", font-files("entypo-social.ttf", "entypo-social.woff", "entypo-social.svg"), "entypo-social.eot");
 
 /* -------------------------------------------------------------------------*/
+
+/* BREAKPOINTS *******************************/
+
+$less-than-tablet: 0px 9 767px;
+
 /* Layout */
 
 .container {
@@ -42,7 +47,7 @@ body {
 
 .main-content {
 	@include span-columns(8 omega, 12);	
-	padding: 0 10px 0px;
+	padding: 10px 10px 0px;
 }
 
 
@@ -189,4 +194,17 @@ h2 {
 
 .projects {
 	text-align: left;
+}
+
+
+/* MEDIA QUERIES ***********************************/
+
+@include at-breakpoint($less-than-tablet) {
+  body {
+    font-size: 75%;
+  }
+  .main-content {
+  	@include span-columns(9);
+  }
+
 }

@@ -18,24 +18,23 @@ function contentView() {
 	})
 }
 
-
 function devCarousel() {
 
 	$("#rondellPages > div").rondell({
 		preset: "pages",
-		size: { width: 700 , height: 400 },
-		center: { left: 350, top: 200 },
+		size: { width: '70em' , height: '40em' },
+		center: { left: '35em', top: '20em' },
 		itemProperties:
 			{
 		    delay: 100,
 		    cssClass: 'rondellItem',
 		    size: {
-		        width: 700,
-		        height: 400
+		        width: '70em',
+		        height: '40em'
 		    },
 		    sizeFocused: {
-		        width: 700,
-		        height: 400
+		        width: '70em',
+		        height: '40em'
 		    }
 			}
 	});
