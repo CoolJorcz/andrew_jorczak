@@ -27,6 +27,7 @@ $less-than-tablet: 0px 9 767px;
 
 body {
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 90%;
 	background-color: #dbd7d7;
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
@@ -47,7 +48,7 @@ body {
 
 .main-content {
 	@include span-columns(8 omega, 12);	
-	padding: 10px 10px 0px;
+	padding: 1em 0.1em 0px;
 }
 
 
@@ -74,8 +75,7 @@ body {
 .social {
 	display: inline;
 	padding-left: 0;
-	ul {
-	}
+
 	li{
 		display: inline;
 	}
@@ -202,6 +202,9 @@ h2 {
 @include at-breakpoint($less-than-tablet) {
   body {
     font-size: 75%;
+  }
+  .social {
+  	padding-left: 2em;
   }
   .main-content {
   	@include span-columns(9);
