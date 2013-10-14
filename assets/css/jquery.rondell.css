@@ -2,7 +2,7 @@
   overflow: hidden;
   display: block;
   position: relative;
-  font-size: 12px;
+  font-size: 0.8em;
 }
 .rondell-container.rondell-initializing {
   background: url("images/loader.gif") no-repeat 50% 50%;
