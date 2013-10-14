@@ -32,14 +32,14 @@
 /* INCLUDES ********************************************************************************/
 @font-face {
   font-family: "entypo";
-  src: url('/assets/css/fonts/entypo.eot');
-  src: url('/assets/css/fonts/entypo.eot?#iefix') format('eot'), url('/assets/css/fonts/entypo.woff') format('woff'), url('/assets/css/fonts/entypo.ttf') format('truetype'), url('/assets/css/fonts/entypo.svg') format('svg');
+  src: url('{{ site.baseurl }}/assets/css/fonts/entypo.eot');
+  src: url('{{ site.baseurl }}/assets/css/fonts/entypo.eot?#iefix') format('eot'), url('{{ site.baseurl }}/assets/css/fonts/entypo.woff') format('woff'), url('{{ site.baseurl }}/assets/css/fonts/entypo.ttf') format('truetype'), url('{{ site.baseurl }}/assets/css/fonts/entypo.svg') format('svg');
 }
 
 @font-face {
   font-family: "entypo-social";
-  src: url('/assets/css/fonts/entypo-social.eot');
-  src: url('/assets/css/fonts/entypo-social.eot?#iefix') format('eot'), url('/assets/css/fonts/entypo-social.ttf') format('truetype'), url('/assets/css/fonts/entypo-social.woff') format('woff'), url('/assets/css/fonts/entypo-social.svg') format('svg');
+  src: url('{{ site.baseurl }}/assets/css/fonts/entypo-social.eot');
+  src: url('{{ site.baseurl }}/assets/css/fonts/entypo-social.eot?#iefix') format('eot'), url('{{ site.baseurl }}/assets/css/fonts/entypo-social.ttf') format('truetype'), url('{{ site.baseurl }}/assets/css/fonts/entypo-social.woff') format('woff'), url('{{ site.baseurl }}/assets/css/fonts/entypo-social.svg') format('svg');
 }
 
 /* -------------------------------------------------------------------------*/
