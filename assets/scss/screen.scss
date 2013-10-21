@@ -34,7 +34,7 @@ body {
 
 .navigation {
 	@include span-columns(4, 12);
-	font-family: "Lucida Grande";
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 	display: block;
 	padding-top: 5em;
 	width: 30%;
