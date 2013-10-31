@@ -54,24 +54,30 @@ body {
 }
 
 /* line 35, ../scss/screen.scss */
+.page {
+  margin: 1em 2em;
+}
+
+/* line 39, ../scss/screen.scss */
 .navigation {
   width: 32.20339%;
   float: left;
   margin-right: 1.69492%;
   display: inline;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   display: block;
   padding-top: 5em;
   width: 30%;
   min-width: 400px;
 }
-/* line 42, ../scss/screen.scss */
+/* line 46, ../scss/screen.scss */
 .navigation li {
   text-align: left;
   padding-left: 2em;
   list-style: none;
 }
 
-/* line 49, ../scss/screen.scss */
+/* line 53, ../scss/screen.scss */
 .main-content {
   width: 66.10169%;
   float: right;
@@ -81,43 +87,43 @@ body {
   padding: 1em 0.1em 0px;
 }
 
-/* line 55, ../scss/screen.scss */
+/* line 59, ../scss/screen.scss */
 .navlink {
   color: #6b0707;
   transition: 1s;
   text-decoration: none;
 }
 
-/* line 60, ../scss/screen.scss */
+/* line 64, ../scss/screen.scss */
 .navlink:hover {
   transition: 1s;
   color: #980404;
   text-decoration: none;
 }
 
-/* line 65, ../scss/screen.scss */
+/* line 69, ../scss/screen.scss */
 .link {
   text-decoration: none;
   color: black;
 }
 
-/* line 70, ../scss/screen.scss */
+/* line 74, ../scss/screen.scss */
 .link:hover {
   color: black;
   text-decoration: none;
 }
 
-/* line 75, ../scss/screen.scss */
+/* line 79, ../scss/screen.scss */
 .social {
   display: inline;
   padding-left: 0;
 }
-/* line 79, ../scss/screen.scss */
+/* line 83, ../scss/screen.scss */
 .social li {
   display: inline;
 }
 
-/* line 83, ../scss/screen.scss */
+/* line 87, ../scss/screen.scss */
 .social .icon {
   font-size: 3em;
   padding: 0.2em;
@@ -126,155 +132,165 @@ body {
   transition: 1s;
 }
 
-/* line 91, ../scss/screen.scss */
+/* line 95, ../scss/screen.scss */
 .social .icon:hover {
   color: #6b0707;
   transition: 1s;
   text-decoration: none;
 }
 
-/* line 97, ../scss/screen.scss */
+/* line 101, ../scss/screen.scss */
 .social .icon.twitter:before, .social .icon.github:before, .social .icon.linkedin:before, .social .icon.instagram:before {
   font-family: 'entypo-social';
   content: attr(data-icon);
 }
 
-/* line 102, ../scss/screen.scss */
+/* line 106, ../scss/screen.scss */
 #aboutme {
   font-family: "Lucida Grande";
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-/* line 108, ../scss/screen.scss */
+/* line 112, ../scss/screen.scss */
 .intronote {
   display: inline;
 }
 
-/* line 112, ../scss/screen.scss */
+/* line 116, ../scss/screen.scss */
 .about-container {
   font-size: 1.2em;
 }
 
-/* line 116, ../scss/screen.scss */
+/* line 120, ../scss/screen.scss */
 .container-right {
   display: inline-block;
   padding-left: 4em;
   font-size: 1.3em;
 }
-/* line 120, ../scss/screen.scss */
+/* line 124, ../scss/screen.scss */
 .container-right ol {
   display: inline;
 }
 
-/* line 125, ../scss/screen.scss */
+/* line 129, ../scss/screen.scss */
 .aboutphoto {
   width: 23em;
   height: 15em;
   display: inline;
 }
 
-/* line 131, ../scss/screen.scss */
+/* line 135, ../scss/screen.scss */
 .header1 {
   font-weight: bold;
   font-size: 3em;
   padding-bottom: 25px;
 }
 
-/* line 138, ../scss/screen.scss */
+/* line 142, ../scss/screen.scss */
 .header1 a {
   text-decoration: none;
   color: black;
   transition: 0.45s;
 }
 
-/* line 144, ../scss/screen.scss */
+/* line 148, ../scss/screen.scss */
 .header1 a:hover {
   text-decoration: none;
   transition: 0.45s;
   color: #6b0707;
 }
 
-/* line 150, ../scss/screen.scss */
+/* line 154, ../scss/screen.scss */
 .header2 {
   font-weight: bold;
   font-size: 2em;
 }
 
-/* line 155, ../scss/screen.scss */
+/* line 159, ../scss/screen.scss */
 h1 {
   text-align: center;
 }
 
-/* line 159, ../scss/screen.scss */
+/* line 163, ../scss/screen.scss */
 h2 {
   text-align: center;
 }
 
-/* line 163, ../scss/screen.scss */
+/* line 167, ../scss/screen.scss */
 .stretchtest {
   width: 55em;
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
   height: 40em;
   /*padding: 4px;*/
   border: 1px solid #ccc;
   display: inline-block;
 }
 
-/* line 171, ../scss/screen.scss */
+/* line 175, ../scss/screen.scss */
 .voiceover li {
   list-style: none;
 }
 
-/* line 175, ../scss/screen.scss */
+/* line 179, ../scss/screen.scss */
 .voiceover a {
   color: #6b0707;
 }
 
-/* line 178, ../scss/screen.scss */
+/* line 182, ../scss/screen.scss */
 .voiceover a:hover {
   text-decoration: none;
   color: #12472f;
 }
 
-/* line 183, ../scss/screen.scss */
+/* line 187, ../scss/screen.scss */
 .development li {
   list-style: none;
 }
 
-/* line 186, ../scss/screen.scss */
+/* line 190, ../scss/screen.scss */
 .development a {
   color: black;
 }
 
-/* line 189, ../scss/screen.scss */
+/* line 193, ../scss/screen.scss */
 .development a:hover {
   text-decoration: none;
   color: #6b0707;
   transition: 1s;
 }
 
-/* line 195, ../scss/screen.scss */
+/* line 199, ../scss/screen.scss */
 .projects {
   text-align: left;
 }
 
 /* MEDIA QUERIES ***********************************/
 @media (min-width: 0px) and (max-width: 1276px) {
-  /* line 203, ../scss/screen.scss */
+  /* line 207, ../scss/screen.scss */
   body {
     font-size: 75%;
   }
 
-  /* line 206, ../scss/screen.scss */
+  /* line 210, ../scss/screen.scss */
   .social {
     padding-left: 2em;
   }
 
-  /* line 209, ../scss/screen.scss */
+  /* line 213, ../scss/screen.scss */
   .main-content {
     width: 100%;
     float: left;
     margin-right: 2.27273%;
     padding: 0 1em;
   }
+
+  .stretchtest {
+    width: 30em;
+    height: 25em;
+  }
+
 }

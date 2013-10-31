@@ -32,6 +32,10 @@ body {
 	text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
+.page {
+	margin: 1em 2em;
+}
+
 .navigation {
 	@include span-columns(4, 12);
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
