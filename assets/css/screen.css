@@ -221,6 +221,7 @@ h2 {
 .stretchtest {
   width: 55em;
   min-width: 100%;
+  min-height: 100%;
   height: 40em;
   /*padding: 4px;*/
   border: 1px solid #ccc;
@@ -228,7 +229,8 @@ h2 {
 }
 
 .stretchtest img {
-  width: 100%;
+  max-width: 79.93%;
+  height: auto;
 }
 
 /* line 175, ../scss/screen.scss */
@@ -270,7 +272,7 @@ h2 {
 }
 
 /* MEDIA QUERIES ***********************************/
-@media (min-width: 0px) and (max-width: 1276px) {
+@media (min-width: 0px) and (max-width: 1200px) {
   /* line 207, ../scss/screen.scss */
   body {
     font-size: 75%;
@@ -291,6 +293,7 @@ h2 {
 
   .stretchtest {
     width: 30em;
+    min-width: 80%;
     height: 25em;
   }
 
