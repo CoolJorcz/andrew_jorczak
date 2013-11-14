@@ -272,7 +272,7 @@ h2 {
 }
 
 /* MEDIA QUERIES ***********************************/
-@media (min-width: 0px) and (max-width: 1200px) {
+@media (min-width: 0px) and (max-width: 1315px) {
   /* line 207, ../scss/screen.scss */
   body {
     font-size: 75%;
@@ -295,6 +295,10 @@ h2 {
     width: 30em;
     min-width: 80%;
     height: 25em;
+  }
+
+  .stretchtest img {
+    height: auto;
   }
 
 }
