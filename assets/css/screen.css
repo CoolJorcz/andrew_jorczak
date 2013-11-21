@@ -228,7 +228,7 @@ h2 {
 }
 /* line 174, ../scss/screen.scss */
 .stretchtest img {
-  min-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -292,8 +292,7 @@ h2 {
 
   /* line 222, ../scss/screen.scss */
   .stretchtest {
-    max-height: 30em;
-    width: 75%;
+    max-height: auto;
     overflow: hidden;
   }
 }
