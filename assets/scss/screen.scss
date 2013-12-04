@@ -171,10 +171,11 @@ h2 {
   /*padding: 4px;*/
   border: 1px solid #ccc;
   display: inline-block;
-  img {
-  	min-width: 50%;
-  	height: auto;
-  }
+}
+.backstretch img {
+	max-height: 100%;
+	max-width: 100%;
+	height: auto;
 }
 
 .voiceover li {
@@ -220,7 +221,7 @@ h2 {
   	padding: 0 1em;
   }
   .stretchtest {
-    max-height: 30em;
+    height: 30em;
     overflow: hidden;
   }
 

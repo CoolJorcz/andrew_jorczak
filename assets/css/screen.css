@@ -2,16 +2,15 @@
 /* INCLUDES ********************************************************************************/
 @font-face {
   font-family: "entypo";
-  src: url('fonts/entypo.eot');
-  src: url('fonts/entypo.eot?#iefix') format('eot'), url('fonts/entypo.woff') format('woff'), url('fonts/entypo.ttf') format('truetype'), url('fonts/entypo.svg') format('svg');
+  src: url('/assets/css/fonts/entypo.eot');
+  src: url('/assets/css/fonts/entypo.eot?#iefix') format('eot'), url('/assets/css/fonts/entypo.woff') format('woff'), url('/assets/css/fonts/entypo.ttf') format('truetype'), url('/assets/css/fonts/entypo.svg') format('svg');
 }
 
 @font-face {
   font-family: "entypo-social";
-  src: url('fonts/entypo-social.eot');
-  src: url('fonts/entypo-social.eot?#iefix') format('eot'), url('fonts/entypo-social.ttf') format('truetype'), url('fonts/entypo-social.woff') format('woff'), url('fonts/entypo-social.svg') format('svg');
+  src: url('/assets/css/fonts/entypo-social.eot');
+  src: url('/assets/css/fonts/entypo-social.eot?#iefix') format('eot'), url('/assets/css/fonts/entypo-social.ttf') format('truetype'), url('/assets/css/fonts/entypo-social.woff') format('woff'), url('/assets/css/fonts/entypo-social.svg') format('svg');
 }
-
 
 /* -------------------------------------------------------------------------*/
 /* BREAKPOINTS *******************************/
@@ -219,70 +218,70 @@ h2 {
 
 /* line 167, ../scss/screen.scss */
 .stretchtest {
-  width: 80%;
-  height: 35em;
-  background-size: 100% 100%;
+  width: 100%;
+  padding-bottom: 66.67%;
   /*padding: 4px;*/
   border: 1px solid #ccc;
   display: inline-block;
 }
-/* line 174, ../scss/screen.scss */
-.stretchtest img {
-  width: 100%;
+
+/* line 175, ../scss/screen.scss */
+.backstretch img {
+  background-size: contain;
   height: auto;
 }
 
-/* line 180, ../scss/screen.scss */
+/* line 181, ../scss/screen.scss */
 .voiceover li {
   list-style: none;
 }
 
-/* line 184, ../scss/screen.scss */
+/* line 185, ../scss/screen.scss */
 .voiceover a {
   color: #6b0707;
 }
 
-/* line 187, ../scss/screen.scss */
+/* line 188, ../scss/screen.scss */
 .voiceover a:hover {
   text-decoration: none;
   color: #12472f;
 }
 
-/* line 192, ../scss/screen.scss */
+/* line 193, ../scss/screen.scss */
 .development li {
   list-style: none;
 }
 
-/* line 195, ../scss/screen.scss */
+/* line 196, ../scss/screen.scss */
 .development a {
   color: black;
 }
 
-/* line 198, ../scss/screen.scss */
+/* line 199, ../scss/screen.scss */
 .development a:hover {
   text-decoration: none;
   color: #6b0707;
   transition: 1s;
 }
 
-/* line 204, ../scss/screen.scss */
+/* line 205, ../scss/screen.scss */
 .projects {
   text-align: left;
 }
 
 /* MEDIA QUERIES ***********************************/
-@media (max-width: 85em) {
-  /* line 212, ../scss/screen.scss */
+@media (max-width: 1308px) {
+  /* line 213, ../scss/screen.scss */
   body {
     font-size: 75%;
   }
 
-  /* line 215, ../scss/screen.scss */
+  /* line 216, ../scss/screen.scss */
   .social {
     padding-left: 2em;
   }
 
-  /* line 218, ../scss/screen.scss */
+  /* line 219, ../scss/screen.scss */
   .main-content {
     width: 100%;
     float: left;
@@ -290,9 +289,9 @@ h2 {
     padding: 0 1em;
   }
 
-  /* line 222, ../scss/screen.scss */
-  .stretchtest {
-    max-height: auto;
+  /* line 223, ../scss/screen.scss */
+  .backstretch img{
+    height: auto;
     overflow: hidden;
   }
 }
